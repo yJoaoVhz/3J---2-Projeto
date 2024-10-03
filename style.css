@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-    --cor-de-fundo: #131212;
-    --cor-primaria: #05696b;
-    --cor-secundaria: #53e1eb;
+    --cor-de-fundo: #000000;
+    --cor-primaria: #237e17;
+    --cor-secundaria: #21d311;
     --fonte: "Quantico", sans-serif;
 }
 
@@ -15,41 +15,48 @@
 body{
     font-family: var(--fonte);
     background-color: var(--cor-de-fundo);
+    color: var(--cor-de-fundo);
     height: 100vh;
     margin: 0;
 }
 
 header{
     background-color: var(--cor-secundaria);
-    color: rgb(244, 239, 239);
+    color: white;
     text-align: center;
-}
-
-h1 {
-    font-weight: 700;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-}
-
-nav a {
-    text-decoration: none;
-    color: rgb(5, 5, 96);
-    margin: 0 2rem 1rem 0;
-    font-size: 1.2rem;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    transform: scale(0.9);
-    transition: transform 0.5s;
 }
 
 footer{
     background-color: var(--cor-primaria);
     color: white;
-    text-align: center;
+}
+
+h1{
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration:none;
+    background-color: var(--cor-secundaria); 
+    color: var(--cor-de-fundo);
+    margin: 0 0.5rem 1rem 0;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration:none; 
+    background-color: var(--cor-primaria);
+    transform: scale(0.8);
+    transition: transform 0.5s;
+    color: var(--cor-de-fundo);
+    font-size: 1.2rem;
+}
+.graficos-container{
+    color: wheat;
 }
