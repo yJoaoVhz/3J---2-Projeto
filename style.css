@@ -29,6 +29,7 @@ header{
 footer{
     background-color: var(--cor-primaria);
     color: white;
+    text-align: center;
 }
 
 h1{
@@ -57,6 +58,19 @@ nav a:hover{
     color: var(--cor-de-fundo);
     font-size: 1.2rem;
 }
+
 .graficos-container{
     color: wheat;
+    margin: 5rem;
+}
+
+.graficos-texto {
+    font-size: 1.3rem;
+    border: var(--cor-secundaria) solid 2px;
+    padding: 2rem;
+}
+
+span {
+    color: var(--cor-secundaria);
+    font-weight: bold;
 }
